@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Property Details</title>
+</head>
+<body>
+    
+    <div class="house-details">
+        <div class="house-title">
+            <h1>The Palace</h1>
+            <div class="row">
+                <p>For RENT</p>
+                <span>Location: Ikoyi, Lagos, Nigeria.</span>
+            </div>
+        </div>
+
+        <div class="popup">
+            <!-- top bar -->
+            <div class="top-bar">
+                <p class="image-name">img1.jpg</p>
+                <span class="close-btn"></span>
+            </div>
+            <!-- arrows -->
+            <button class="arrow-btn left-arrow"><img src="images/arrow.png" alt=""></button>
+            <button class="arrow-btn right-arrow"><img src="images/arrow.png" alt=""></button>
+            <!-- image -->
+            <img src="images/2.jpg" class="large-image" alt="">
+            <!-- image-index -->
+            <h1 class="index">01</h1>
+        </div>
+
+        <div class="gallery">
+            <div class="gallery-img-1"><img src="images/2.jpg" class="image"></div>
+            <div><img src="images/1.jpg" class="image"></div>
+            <div><img src="images/1.jpg" class="image"></div>
+            <div><img src="images/1.jpg" class="image"></div>
+            <div><img src="images/1.jpg" class="image"></div>
+        </div>
+
+        <div class="small-details">
+            <h2>Description</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero eum vero pariatur 
+                facere sit sunt sapiente, animi nostrum error inventore dolores maiores iure similique minus officia numquam 
+                repudiandae? Adipisci, quis.
+            </p>
+            <h4>&#8358 60,000 / night</h4>
+        </div>
+        <hr class="line">
+
+        <form class="check-form">
+            <div>
+                <i class='bx bx-user'></i>
+                <input type="text" placeholder="5 guests">
+            </div>
+            <div>
+                <i class='bx bx-bed'></i>
+                <input type="text" placeholder="5 bedrooms">
+            </div>
+            <div class="bath-field">
+                <i class='bx bx-bath'></i>
+                <input type="text" placeholder="2 bathrooms">
+            </div>
+            <button type="submit">Check Availability</button>
+        </form>
+
+        <div class="details">
+            <h2>Amenities</h2>
+            <ul class="details-list">
+                <li><i class='bx bx-swim'></i> Swimming Pool</li>
+                <li><i class='bx bx-dumbbell' ></i> gym</li>
+                <li><i class='bx bx-power-off'></i> 24/7 Power Supply</li>
+                <li><i class='bx bxs-check-shield' ></i> Round the Clock Security</li>
+                <li><i class='bx bxs-washer'></i> Cleaning Services</li>
+            </ul>
+        </div>
+        <hr class="line">
+
+        <div class="map">
+            <h2>Location on map</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31716.49557074074!2d3.453463728551537!3d6.450240894029889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf452da3bd44b%3A0x47331fb41adc9d28!2sLekki%20Phase%201%20106104%2C%20Lekki!5e0!3m2!1sen!2sng!4v1658797036317!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <b>Ikoyi, Lagos, Nigeria.</b>
+        </div>
+        <hr class="line">
+
+        <section class="news container">
+            <div class="news-text">
+                <h1>Like this <span>property</span>?</h1>
+                <a href="../../contact/index.html" class="btn">Make Enquiry</a>
+            </div>
+        </section>
+
+
+    </div>
+
+    <script src="app.js"></script>
+    <script id="replace_with_nav" src="nav.js"></script>
+    <script id="replace_with_nav" src="footer.js"></script>
+</body>
+</html>
