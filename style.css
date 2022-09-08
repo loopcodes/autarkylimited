@@ -12,9 +12,9 @@
 }
 
 :root{
-    --main-color: #c1d607;
+    --main-color: #c2a449;
     --second-color: #626a19;
-    --text-color: #9ea019;
+    --text-color: #a3893b;
     --bg-color: rgb(253, 249, 249);
 
     --box-shadow: 2px 2px 18px rgb(14 52 54 / 15%);
@@ -55,7 +55,7 @@ header{
 }
 
 .logo{
-    width: 12%;
+    width: 15%;
 }
 
 .navbar{
@@ -445,6 +445,10 @@ header{
         gap: 1rem;
     } 
 
+    .service .head{
+        margin-top: -8%;
+    }
+
     .prop-container {
         grid-template-columns: repeat(auto-fit, minmax(200px, auto));
         gap: 1rem;
@@ -467,6 +471,10 @@ header{
 }
 
 @media (max-width: 768px){
+    .btn{
+        padding: 8px 15px;
+    }
+
     .nav{
         padding: 10px 0;
     }

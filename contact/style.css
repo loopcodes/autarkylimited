@@ -9,9 +9,9 @@
 }
 
 :root{
-    --main-color: #c1d607;
+    --main-color: #c2a449;
     --second-color: #626a19;
-    --text-color: #9ea019;
+    --text-color: #a3893b;
     --bg-color: rgb(253, 249, 249);
 
     --box-shadow: 2px 2px 18px rgb(14 52 54 / 15%);
@@ -98,7 +98,7 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(8.webp);
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(8.webp);
     background-size: contain;
 }
 

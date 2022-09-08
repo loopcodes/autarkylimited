@@ -9,9 +9,9 @@
 }
 
 :root{
-    --main-color: #c1d607;
+    --main-color: #c2a449;
     --second-color: #626a19;
-    --text-color: #9ea019;
+    --text-color: #a3893b;
     --bg-color: rgb(253, 249, 249);
 
     --box-shadow: 2px 2px 18px rgb(14 52 54 / 15%);
@@ -493,15 +493,13 @@ header{
     }
 
     .popup{
-        top: 57%;
+        top: 60%;
         width: 90%;
     }
 
     .large-image{
         width: 100%;
         height: 100%;
-        object-fit: contain;
-        opacity: 0;
     }
 
 }
