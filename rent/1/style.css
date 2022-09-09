@@ -401,7 +401,7 @@ header{
 }
 
 .arrow-btn{
-    opacity: 0;
+    opacity: 1;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -499,7 +499,7 @@ header{
 
     .large-image{
         width: 90%;
-        height: 90%;
+        height: 70%;
     }
 
 }
