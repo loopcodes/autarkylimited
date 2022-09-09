@@ -503,7 +503,7 @@ header{
     }
 
     .arrow-btn{
-        position: relative;
+        position: inherit;
     }
 
 }
