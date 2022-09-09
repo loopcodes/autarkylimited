@@ -499,11 +499,7 @@ header{
 
     .large-image{
         width: 90%;
-        height: 70%;
-    }
-
-    .arrow-btn{
-        position: inherit;
+        height: 90%;
     }
 
 }
