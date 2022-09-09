@@ -502,6 +502,10 @@ header{
         height: 70%;
     }
 
+    .arrow-btn{
+        position: relative;
+    }
+
 }
 
 @media (max-width: 768px){
