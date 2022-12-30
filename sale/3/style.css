@@ -90,6 +90,15 @@ header{
     background: var(--main-color);
 }
 
+.bit{
+    padding: 50px 61px;
+    background: var(--text-color);
+    color: var(--bg-color);
+}
+.bit:hover{
+    background: var(--main-color);
+}
+
 
 
 .house-details{
