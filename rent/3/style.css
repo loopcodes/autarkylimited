@@ -91,7 +91,7 @@ header{
 }
 
 .bit{
-    padding: 50px 61px;
+    padding: 10px 0px;
     background: var(--text-color);
     color: var(--bg-color);
 }
