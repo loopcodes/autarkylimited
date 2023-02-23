@@ -84,7 +84,7 @@ header{
     padding: 8px 22px;
     background: var(--text-color);
     color: var(--bg-color);
-    border-radius: 5rem;
+    border-radius: 100rem;
 }
 .btn:hover{
     background: var(--main-color);
@@ -98,7 +98,6 @@ header{
 .bit:hover{
     background: var(--main-color);
 }
-
 
 
 .house-details{
@@ -125,11 +124,17 @@ header{
     margin: 0 20px;
 }
 
+
+.hidden{
+    display: none !important;
+}
+
 .gallery{
     display: grid;
     grid-gap: 10px;
     grid-template-areas: 'first first . .' 'first first . .';
     margin: 20px 0;
+    cursor: pointer;
 }
 
 .gallery div img{
@@ -330,6 +335,18 @@ header{
 }
 
 
+
+
+
+
+
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;
+}
+
 /* popup */
 
 .popup{
@@ -396,6 +413,13 @@ header{
     cursor: pointer;
 }
 
+.icon{
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    font-weight: 700;
+}
+
 .arrow-btn{
     opacity: 1;
     position: absolute;
@@ -450,6 +474,25 @@ header{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 1080px) {
     .container {
         margin-left: 1rem;
@@ -469,9 +512,9 @@ header{
     }
 
     .popup{
-        top: 60%;
+        top: 55%;
         width: 100%;
-        height: 50vh;
+        height: 70vh;
     }
 
     .large-image{
@@ -490,6 +533,11 @@ header{
     .gallery{
         grid-template-areas: 'first first' '. .' '. .';
     }
+
+    .gallery-img-1{
+        height: 200px;
+    }
+
 
     .small-details h2{
         margin-top: 24px;
