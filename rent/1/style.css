@@ -91,13 +91,9 @@ header{
 }
 
 .bit{
-    padding: 10px 0px;
-    background: var(--text-color);
     color: var(--bg-color);
 }
-.bit:hover{
-    background: var(--main-color);
-}
+
 
 
 .house-details{
@@ -202,6 +198,7 @@ header{
     padding: 18px;
     width: 300px;
     border-radius: 8px;
+    margin: 0 20px 0;
     font-size: 16px;
     cursor: pointer;
 }
