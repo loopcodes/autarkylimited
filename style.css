@@ -26,6 +26,7 @@ img{
 body{
     margin-top: 11rem;
     color: var(--text-color);
+    letter-spacing: 0.2px;
 }
 section{
     padding: 7rem 0 3rem;
@@ -39,7 +40,9 @@ header{
     left: 0;
     z-index: 100;
 }
-
+p{
+    color: black;
+}
 
 .container{
     max-width: 1068px;
